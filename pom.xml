@@ -462,7 +462,7 @@
                             <xmlOutput>true</xmlOutput>
                         </configuration>
                     </plugin>
-			    <pluginManagement>
+			    
       <plugins>
         <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
@@ -475,7 +475,7 @@
           <version>2.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+    
 			
                     <plugin>
                         <artifactId>maven-javadoc-plugin</artifactId>
